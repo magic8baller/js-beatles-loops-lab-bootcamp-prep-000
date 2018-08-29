@@ -1,4 +1,4 @@
-
+//theBeatlesPlay(musicians, instruments)
 
  function theBeatlesPlay(musicians, instruments) {
    let newArray = [];
@@ -9,7 +9,7 @@
  }
 
 
-
+//johnLennonFacts(facts)
 
 function johnLennonFacts(facts) {
   let factsList = [];
@@ -22,6 +22,8 @@ function johnLennonFacts(facts) {
 }
 
 
+//iLoveTheBeatles(num)
+
 function iLoveTheBeatles(num) {
   let loveArray = [];
 
@@ -29,5 +31,6 @@ function iLoveTheBeatles(num) {
     loveArray.push('I love the Beatles!');
     num++
   } while (num < 15)
+  
   return loveArray;
 }
